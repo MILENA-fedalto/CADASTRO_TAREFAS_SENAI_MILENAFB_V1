@@ -65,7 +65,6 @@ function atualizarContador() {
 function renderizarLista() {
 
     listaHTML.innerHTML = "";
-s
     listaDeTarefas.forEach((tarefa, index) => {
 
         const item = document.createElement("li");
